@@ -1,0 +1,158 @@
+//
+// Page: Home
+// ---------------------------
+
+
+
+.logo {
+  top: 0;
+  width: 118px;
+  height: 32px;
+  margin-left: 2px;
+
+  a {
+    background: url(../images/haus.svg) no-repeat;
+    display: block;
+    text-indent: -999em;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.h1-header {
+    font-size: 3em;
+
+    small {
+        color: #717171;
+        font-size: .7em;
+    }
+}
+
+.page-index {
+  margin-bottom: 20px;
+}
+
+.searchbox {
+  height: 60px;
+  background: #717171;
+  padding: 10px 140px 10px 10px;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.search-input {
+  font-size: 14px;
+  font-weight: 200;
+  color: #5e5e5e;
+  float: left;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 5px;
+
+  &:focus {
+    background: #ecf5fd;
+  }
+}
+
+
+
+.metadata {
+    display: none;
+    padding-top: 10px;
+
+    .metadata-show & {
+        display: block;
+    }
+
+  .metadata-language {
+    background: #717171;
+    color: #fff;
+    display: inline-block;
+    padding: 0px 10px;
+    border-radius: 5px;
+    font-size: 1.0em;
+    min-width: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .metadata-followers {
+    display: inline-block;
+    padding: 5px 0;
+    margin-left: 5px;
+    font-size: 1.0em;
+    font-weight: 200;
+  }
+
+  .metadata-url {
+    margin-top: 10px;
+    font-size: 1.4em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+      a {
+        text-decoration: none;
+        color: #098000;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: #054d00;
+      }
+  }
+
+  .metadata-description {
+    font-size: 1.4em;
+    margin: 10px 0;
+    font-weight: 200;
+  }
+
+}
+
+
+
+button {
+  background: #098000;
+  font-size: 20px;
+  line-height: 44px;
+  color: #ffffff;
+  float: right;
+  width: 120px;
+  height: 40px;
+  margin: 0 -130px 0 0;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+
+  &:hover {
+    background: #086b00;
+    cursor: pointer;
+  }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 0 $baseLineHeight 0;
+    padding: 0;
+
+    li {
+        border: 1px solid #e7e7e7;
+        border-radius: 10px;
+        margin: 20px auto;
+        padding: 5px 20px;
+
+        &:hover {
+            background-color: #f6f6f6;
+            cursor: pointer;
+        }
+
+        p {
+          font-size: 1.8em;
+        }
+    }
+}
